@@ -264,6 +264,8 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+
+
 @font-face {
   font-family: 'Glyphicons Halflings';
 
@@ -3083,6 +3085,48 @@ input[type="search"] {
     line-height: 46px;
   }
 }
+section:not(.imagebg):not([class*="bg-"]) + section.bg--secondary {
+
+    border-top: 1px solid #ebebeb;
+
+}
+.switchable {
+
+    position: relative;
+
+}
+.bg--secondary {
+
+    background: #fafafa;
+
+}
+section, footer {
+
+    padding-top: 7.42857143em;
+    padding-bottom: 7.42857143em;
+
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+
+    display: block;
+
+}
+*, h1, h2, h3, h4, h5, h6, p, ul, a {
+
+    margin: 0;
+    padding: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+}
+* {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -7044,4 +7088,33 @@ button.close {
     display: none !important;
   }
 }
+
+@import "compass/css3";
+
+
+
+
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  
+  width: 200px;
+}
+
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
