@@ -17,7 +17,7 @@
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="fonts2/font-awesome/css/all.css">
-
+<link rel="stylesheet" type="text/css" href="fonts2/font-awesome/css/fontawesome.css">
 <!--
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">-->
 <!-- Slider
@@ -54,7 +54,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about" class="page-scroll">About</a></li>
         <li><a href="#services" class="page-scroll">Services</a></li>
-        <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+        <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
         <li><a href="#testimonials" class="page-scroll">Testimonials</a></li>
         <li><a href="#contact" class="page-scroll">Contact</a></li>
       </ul>
@@ -90,8 +90,8 @@
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
           <h3>Help Individuals creating value.</h3>
-          <h4><p>I belive that every individual is a free and responsible agent determining their own developments through acts of will.I despise those who blame, be it government or education system or parents or society or any religion or rich people or poor people or men or women or Pakistanis or Indians whatever it might be.. Because when you blame someone/thing you are givingup you individual existence, you let go off all your responsibilities and you kill all the possibilities of doing something beautiful with your life because you no longer are responsible anyway.I belive that you or anyone doesn't necessarily have to have done something wrong for you to suffer instead that's just how it all is.So live anyway and make it worth suffering.</p>
-          <p>I love to read futuristic dystopian literature but I am ultra-optimist about future and whatever it might bring forth I want to have my potential relized by contributing to it.<i>I love to work with people who have similar beliefs as mine since that is a true hallmark of whether that person can actually solve problems and not be enslaved by his/her fear and laziness to play video games while blaming the world all the time.</i></p></h4>
+          <h4><p>I belive that every individual is a free and responsible agent determining their own developments through acts of will.I despise those who blame, be it government or education system or parents or society or any religion or rich people or poor people or men or women or Pakistanis or Indians whatever it might be.. Because when you blame someone/thing you are givingup you individual existence, you let go off all your responsibilities and you kill all the possibilities of doing something beautiful with your life because you no longer are responsible anyway.I belive that you or anyone doesn't necessarily have to havve done something wrong for you to suffer instead that's just how it all is.So live anyway and make it worth suffering.</p>
+          <p>I love to read futuristic dystopian literature but I am ultra-optimist about future and whatever it might bring forth I want to have my potential relized by contributing to it.<b>I love to work with people who have similar beliefs as mine since that is a true hallmark of whether that person can actually solve problems and not be enslaved by his/her fear and laziness to play video games while blaming the world all the time.</b></p></h4>
         </div>
       </div>
     </div>
@@ -366,20 +366,20 @@
     </div>
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <div id="testimonial" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
-          <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 4500px; left: 0px; display: block; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 750px;"><div class="item"> <!--<img src="img/clients/01.jpg" alt=""/>-->
+        <div id="testimonial" class="owl-carousel owl-theme">
+          <div class="item"> <!--<img src="img/clients/01.jpg" alt=""/>-->
             <p>He is very professional and completed work on time. Looking forward to work with him in future!.</p>
             <p><strong>Anuja Shah</strong>, senior manager</p>
-          </div></div><div class="owl-item" style="width: 750px;"><div class="item"> <img src="img/Gagan Singh Bhatia.jpg" alt="">
+          </div>
+          <div class="item"> <img src="img/Gagan Singh Bhatia.jpg" alt=""/>
             <p>Dhrumil is one of the great machine learning and block chain developer has great experience with deep learning concept and made best nudity detector model and beat many other companies model. I would highly recommend him in field of artificial intelligence </p>
             <p><strong>Gagan Singh Bhatia</strong>, Data scientist,Developer and freelancer.</p>
-          </div></div><div class="owl-item" style="width: 750px;"><div class="item"> <img src="img/clients/03.jpg" alt="">
+          </div>
+          <div class="item"> <img src="img/clients/03.jpg" alt=""/>
             <p>Highly self motivated and inspiring person to work with.I wish to keep working with him.</p>
             <p><strong>Raymond locksmith</strong>, Project manager</p>
-          </div></div></div></div>
-          
-          
-        <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -390,20 +390,21 @@
     <div class="section-title center">
       <h2>Get In Touch</h2>
       <hr>
-      <p>Please mail us for any questions, queries, concerns that you might have.</p>
+      <p>Please mail me at barotdhrumil21@gmail.com for any questions, queries, concerns that you might have.</p>
     </div>
     <div class="col-md-8 col-md-offset-2">
-      <form name="sentMessage" id="contactForm" novalidate>
+      <form action="https://formspree.io/your@email.com"
+      method="POST"><!--name="sentMessage" id="contactForm" novalidate-->
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <input name="Name" type="text" id="name" class="form-control" placeholder="Name" required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <input name="email" type="email" id="email" class="form-control" placeholder="Email" required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
@@ -417,7 +418,7 @@
       </form>
       <div class="social">
         <ul>
-          <li><a href="https://www.facebook.com/dhrumil.stunning"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.facebook.com/dhrumil.stunning"><i class="fa fa-facebook-square"></i></a></li>
           <li><a href="https://twitter.com/barotdhrumil21"><i class="fa fa-twitter"></i></a></li>
           <li><a href="https://plus.google.com/u/0/114637502676470358062"><i class="fa fa-google-plus"></i></a></li>
           <li><a href="https://www.linkedin.com/in/dhrumil-barot-80a159b5/"><i class="fa fa-linkedin"></i></a></li>
@@ -434,7 +435,7 @@
 <script type="text/javascript" src="js/nivo-lightbox.js"></script> 
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
+<!--<script type="text/javascript" src="js/contact_me.js"></script> -->
 <script type="text/javascript" src="js/owl.carousel.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
 </body>
